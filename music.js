@@ -6,8 +6,8 @@ var h2 = $('h2').get(0);
 var volume_text = $('volume').get(0);
 var section = $('section').get(0);
 var pause_button = $('.glyphicon-pause').get(0);
-var list = [{'name':'传奇', 	  'singer':'王菲',   'src':'音乐播放器/传奇.mp3',       'pic':'音乐播放器/wf.png'}, 
-			{'name':'知道不知道', 'singer':'刘若英', 'src':'音乐播放器/知道不知道.mp3', 'pic':'音乐播放器/lry.jpg'}];
+var list = [{'name':'传奇', 	  'singer':'王菲',   'src':'传奇.mp3',       'pic':'wf.png'}, 
+			{'name':'知道不知道', 'singer':'刘若英', 'src':'知道不知道.mp3', 'pic':'lry.jpg'}];
 progress[1].value = 0.5;
 audio.volume = 0.5;
 
